@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 100px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: 31rem;
+    background-color: rgba(243, 240, 240, 0.314);
+    justify-content: center;
+    border-radius: 4px;
+    gap: 1.5rem;
+    margin: 8rem auto;
+    box-shadow: 2.7px 7px 16px -16.9px rgba(111, 107, 107, 1);
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+.image img{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    border: 1px solid rgba(129, 27, 27, 0.205);
+    box-shadow: 0.3px 8px 8px -9px black;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.about .heading{
+    display: flex;
+    justify-content: center;
+}
+.info h3{
+    font-size: 1.65rem;
+}
+.info .summary{
+    font-size: 1.16rem;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.632);
+}
+
+.info .summary{
+    padding-bottom: 8px;
+}
+
+.info .description{
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}
+
+.contact img{
+    width: 1.8rem;
+}
